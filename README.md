@@ -88,8 +88,8 @@ You can utilize the following environment variables in Yacht. None of them are m
 | SECRET_KEY   | Setting this to a random string ensures you won't be logged out in between reboots of Yacht.                                                                                            |
 | ADMIN_EMAIL  | This sets the email for the default Yacht user.                                                                                                                                         |
 | DISABLE_AUTH | This disables authentication on the backend of Yacht. It's not recommended unless you're using something like Authelia to manage authentication.                                        |
-| DATABASE_URL | If you want to have Yacht use a database like SQL instead of the built in sqlite on you can put that info here in the following format:`postgresql://user:password@postgresserver/db` |
-| COMPOSE_DIR  | This is the path inside the container which contains your folders that have docker compose projects. (*compose tag only*)                                                             |
+| DATABASE_URL | If you want to have Yacht use a database like SQL instead of the built in sqlite on you can put that info here in the following format:`postgresql://user:password@postgresserver/db`   |
+| COMPOSE_DIR  | This is the path inside the container which contains your folders that have docker compose projects. (*compose tag only*)                                                               |
 
 ## Notes for installing Docker and Yacht on WSL2 platform under Windows
 
